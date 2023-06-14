@@ -2,9 +2,10 @@
   "index": "Introduction",
   "installation": "Installation",
   "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "Home": {
+    "title": "Home",
+    "type": "page",
+    "href": "http://localhost:3000"
   },
   "contact": {
     "title": "Contact ↗",
