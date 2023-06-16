@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "markdownlint \"**/*.md\" \"**/*.mdx\" --disable MD013 MD009 MD041 MD033 MD038"
+    "lint": "markdownlint \"**/*.md\" \"**/*.mdx\" --disable MD013"
   },
   "repository": {
     "type": "git",
