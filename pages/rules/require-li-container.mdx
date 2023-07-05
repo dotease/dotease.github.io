@@ -1,4 +1,4 @@
-# dotease/require-li-container
+# eslint/require-li-container
 
 > This rule enforces that `<li>` elements are wrapped inside a valid container element.
 
@@ -132,3 +132,12 @@ tester.run('require-li-container', requireLiContainer, {
     {
       filename: 'invalid_empty_alt_2.tsx',
       code: `(props: Props) => <menu><div><li>test</li></
+
+div></menu>`,
+      errors: [{ message: ErrorMessage.REQUIRE_LI_CONTAINER }],
+    },
+  ],
+});
+```
+
+Note: Make sure to adjust the import paths and filenames in the test cases according to your project structure.
