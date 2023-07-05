@@ -12,8 +12,5 @@
     "href": "https://twitter.com/shuding_",
     "newWindow": true
   },
-  "rules": {
-    "title": "Rules",
-    "type": "page"
-  }
+  "rules": "Rules"
 }
