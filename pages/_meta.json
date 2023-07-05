@@ -1,7 +1,6 @@
 {
   "index": "Introduction",
   "installation": "Installation",
-  "advanced": "Advanced (A Folder)",
   "Home": {
     "title": "Home",
     "type": "page",
@@ -12,5 +11,9 @@
     "type": "page",
     "href": "https://twitter.com/shuding_",
     "newWindow": true
+  },
+  "rules": {
+    "title": "Rules",
+    "type": "page"
   }
 }
